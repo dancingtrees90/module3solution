@@ -1,0 +1,65 @@
+body {
+	font-size: 15px;
+	color: black;
+	background-color: white;
+	font-family: sans-serif;
+}
+p {
+	background-color: #808080;
+}
+h1 {
+	text-align: center;
+	font-weight: bold;
+	padding-bottom: 1em;
+}
+.button.navbar-toggle {
+	float: right;
+	position: relative;
+	color: black;
+}
+
+#header-nav {
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand {
+	padding-top: 10px;
+	text-align: left;
+	border: 1px solid black;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a {
+	color: blue;
+	text-align: center;
+}
+#nav-list a:hover {
+	background: #e7e7e7;
+}
+#nav-list a span {
+	font-size: 1.8em;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid #61122f;
+}
+
+@media (min-width: 768px) {
+	.button navbar-toggle{
+		background-color: black;
+	}
+}
+
+@media (min-width: 1200px) {
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+@media (min-width: 768px) and (max-width: 991px) {
+}
+@media (max-width: 767px){
+}
